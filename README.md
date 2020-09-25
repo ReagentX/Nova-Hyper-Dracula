@@ -2,4 +2,4 @@
 
 Dracula, but with a black background.
 
-![](https://github.com/ReagentX/Nova-Hyper-Dracula/blob/develop/Images/screenshot.png)
+<img src="https://github.com/ReagentX/Nova-Hyper-Dracula/blob/develop/Images/screenshot.png" width="160" height="100" />
