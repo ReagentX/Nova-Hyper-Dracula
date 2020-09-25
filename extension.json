@@ -1,0 +1,10 @@
+{
+    "identifier": "com.chrissardegna.HyperDracula",
+    "name": "Hyper Dracula",
+    "organization": "Christopher Sardegna",
+    "description": "Dracula, but with a black background.",
+    "version": "1.0",
+    "categories": ["themes"],
+    "repository": "https://github.com/ReagentX/Nova-Hyper-Dracula",
+    "bugs": "https://github.com/ReagentX/Nova-Hyper-Dracula/issues"
+}

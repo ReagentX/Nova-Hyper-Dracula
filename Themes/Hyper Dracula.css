@@ -1,0 +1,305 @@
+
+meta {
+    -theme-interface-name: "Hyper Dracula";
+    -theme-interface-style: dark;
+    -theme-accent-color: auto;
+}
+
+
+/*
+ * Window styles
+ */
+meta.window {
+    background-color: #000000;
+    border-color: rgba(0, 0, 0, .1);
+}
+meta.titlebar {
+    color: #F8F8F2;
+    background-color: #000000;
+    border-color: rgba(0, 0, 0, .6);
+}
+
+meta.titlebar.inactive {
+    background-color: #000000;
+}
+
+meta.button {
+    background: linear-gradient(#4E5257, #3C3F42);
+    border: linear-gradient(#292C2E, #222426);
+    color: white;
+}
+meta.button.highlighted {
+    background: linear-gradient(#656B70, #53575C);
+    color: white;
+}
+meta.button.selected {
+    color: white;
+}
+meta.button.highlighted.selected {
+    color: white;
+}
+meta.button.disabled {
+    background: linear-gradient(#4E5257, #3C3F42);
+    border: linear-gradient(#292C2E, #222426);
+    color: #666666;
+}
+
+meta.textfield {
+    background-color: #202224;
+    border-color: #17181A;
+}
+
+
+/*
+ * Document styles
+ */
+meta.document {
+    background-color: #000000;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+meta.document.button {
+    background: linear-gradient(#3C3F42, #323538);
+    border: linear-gradient(#323538, #121314);
+}
+meta.document.button.disabled {
+    background: linear-gradient(rgba(60, 62, 66, 0.3), rgba(50, 52, 56, 0.3));
+}
+meta.document.button.highlighted {
+    background: linear-gradient(#53575C, #494D52);
+}
+
+meta.document.textfield {
+    background-color: #17181A;
+    border-color: #0E0F0F;
+}
+
+/* Text */
+meta.text {
+    color: #F8F8F2;
+}
+meta.text.invisible {
+    color: #6272a4;
+}
+meta.text.selected {
+    background-color: #44475a;
+}
+
+/* Cursor */
+meta.cursor {
+    background-color: #282a36;
+}
+
+/* Indentation Guides */
+meta.indentguide {
+    border-color: #3d404a;
+}
+
+/* Gutter */
+meta.gutter {
+    color: #5C6166;
+}
+meta.gutter.selected {
+    background-color: #20222b;
+    color: #B8C2CC;
+}
+
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+    color: #FF79C6;
+}
+comment {
+    color: #6272a4;
+}
+processing {
+    color: #FF79C6;
+}
+declaration {
+    color: #FF79C6;
+}
+bracket {
+    color: #F8F8F2;
+}
+operator {
+    color: #FF79C6;
+}
+invalid {
+    background-color: #FF79C6;
+    color: #F8F8F2;
+}
+link {
+    color: #8BE9FD;
+}
+
+/* Values */
+value.boolean {
+    color: rgb(139,233,253);
+}
+value.null {
+    color: rgb(139,233,253);
+}
+value.number {
+    color: rgb(202,169,250);
+}
+value.entity {
+    color: rgb(139,233,253);
+}
+value.symbol {
+    color: rgb(139,233,253);
+}
+
+/* Identifiers */
+identifier.type,
+identifier.constant, 
+identifier.decorator {
+    color: #BD93F9;
+}
+identifier.function,
+identifier.method {
+    color: #50FA7B;
+}
+identifier.property {
+    color: #8BE9FD;
+}
+identifier.key {
+    color: #63cce3;
+}
+identifier.argument {
+    color: #8BE9FD;
+}
+
+/* Strings */
+string {
+    color: #F1FA8C;
+}
+string.key {
+    color: #50FA7B;
+}
+string-template {
+    color: #FFC247;
+}
+regex {
+    color: #FFC247;
+}
+cdata {
+    color: #66B3FF;
+}
+
+/* Markup */
+markup.heading {
+    color: #6272a4;
+}
+markup.line {
+    color: #F1FA8C;
+}
+markup.bold {
+    color: #4EA3C2;
+}
+markup.italic {
+    color: #9ECC7A;
+}
+markup.strikethrough {
+    color: #FF6666;
+}
+markup.list.item {
+    color: #F1FA8C;
+}
+markup.code {
+    color: #63cce3;
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+    font-weight: bold;
+    color: #A085DE;
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+    color: #50FA7B;
+}
+
+/* Tags */
+tag {
+    color: rgb(154,237,254);
+}
+tag.framework {
+    color: rgb(202,169,250);
+}
+tag.attribute.name {
+    color: rgb(90,247,142);
+}
+tag.attribute.value {
+    color: rgb(255,110,103);
+}
+tag.attribute.value.link {
+    color: rgb(139,233,253);
+}
+
+/* Styles */
+style.at {
+    color: #FF79C6;
+    font-weight: bold;
+}
+style.selector.element {
+    font-weight: bold;
+}
+style.selector.identifier.id {
+    color: rgb(154,237,254);
+}
+style.selector.identifier.class {
+    color: rgb(202,169,250);
+}
+style.selector.pseudoclass {
+    color: rgb(202,169,250);
+}
+style.selector.pseudoelement {
+    color: rgb(154,237,254);
+}
+style.attribute.name {
+    color: #50FA7B;
+}
+style.value.number {
+    color: #BD93F9;
+}
+style.value.color.hex {
+    color: #BD93F9;
+}
+style.value.keyword {
+    color: #63cce3;
+}
+style.value.color.named {
+    color: #63cce3;
+}
+
+/* Terminal */
+terminal.bright-black { color: rgb(0,0,0); }
+terminal.bright-red { color: rgb(255,85,85); }
+terminal.bright-green { color: rgb(80,250,123); }
+terminal.bright-yellow { color: rgb(241,250,140); }
+terminal.bright-blue { color: rgb(202,169,250); }
+terminal.bright-magenta { color: rgb(255,121,198); }
+terminal.bright-cyan { color: rgb(139,233,253); }
+terminal.bright-white { color: rgb(191,191,191); }
+
+terminal.black { color: rgb(20,20,20); }
+terminal.red { color: rgb(255,110,103); }
+terminal.green { color: rgb(90,247,142); }
+terminal.yellow { color: rgb(244,249,157); }
+terminal.blue { color: rgb(202,169,250); }
+terminal.magenta { color: rgb(255,146,208); }
+terminal.cyan { color: rgb(154,237,254); }
+terminal.white { color: rgb(230,230,230); }
+
+ 
